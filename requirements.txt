@@ -1,0 +1,60 @@
+# HOW TO RUN THE PROJECT (app.py)
+
+Follow the steps below to run the Retail Analytics Dashboard on your system.
+
+---
+
+1. INSTALL PYTHON
+
+Make sure Python is installed on your system.
+
+Check using:
+
+> python --version
+
+If not installed, download first
+
+---
+
+2. INSTALL REQUIRED LIBRARIES
+
+Open terminal / command prompt in the project folder and run:
+
+> pip install pandas matplotlib streamlit statsmodels
+
+---
+
+3. DATASET
+
+Place the file:
+superstore.csv
+
+inside your project folder copy the patch and replace with the path in app.py and main.py(not necessary if  you are not using main.py)
+---
+
+4. RUN THE APPLICATION
+
+In terminal, run:
+
+> streamlit run app.py
+
+---
+
+5. VIEW IN BROWSER
+
+After running, Streamlit will automatically open in your browser.
+
+If not, copy and open the URL shown in terminal (usually):
+http://localhost:8501 (ctrl + click)
+
+---
+
+NOTES
+
+* main.py is only for testing and is not required to run the dashboard
+* Make sure all libraries are installed correctly
+* If errors occur, check file path and dataset placement
+
+---
+
+END
